@@ -60,12 +60,13 @@ body {
 /* Features Section */
 
 #features .container-fluid {
-    padding: 3% 15%;
+    padding: 7% 15%;
 }
 
 #features .fontawesome-icon {
     size: 16px;
     color: #ef8172;
+    margin: 7% 0;
 }
 
 #features .fontawesome-icon:hover {
