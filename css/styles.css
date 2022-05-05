@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat' !important;
+}
+
 #title {
   background-color: #ff4c68;
 }
@@ -11,4 +15,16 @@
   font-size: 3rem;
   list-style: 1.5px;
   font-weight: 900;
+  color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem !important;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem !important;
+  font-weight: bold;
 }
