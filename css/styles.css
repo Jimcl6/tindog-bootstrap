@@ -152,7 +152,12 @@ body {
 }
 
 @media(max-width: 1020px) {
+    #title {
+        text-align: center;
+    }
     .title-image {
-        display: none;
+        position: static;
+        transform: rotate(0);
+        width: 60%;
     }
 }
