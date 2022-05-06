@@ -67,8 +67,8 @@
                         Download</button>
                 </div>
 
-                <div class="col-lg-6">
-                    <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+                <div class="col-lg-6 .d-sm-none .d-md-block">
+                    <img class="title-image image-fluid " src="images/iphone6.png" alt="iphone-mockup">
                 </div>
             </div>
         </div>
@@ -80,27 +80,27 @@
 
     <section id="features">
 
-        <div class="container-fluid">
+        <div class="container">
             <div class="row mx-auto">
-                <div class="d-flex justify-content-between">
-                    <div class="col-lg-4 col-md-12 text-center">
-                        <i class="fas fa-check-circle fa-5x fontawesome-icon"></i>
-                        <h3 class="feature-title">Easy to use.</h3>
-                        <p>So easy to use, even your dog could do it.</p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-12 text-center">
-                        <i class="fas fa-bullseye fa-5x fontawesome-icon"></i>
-                        <h3 class="feature-title">Elite Clientele</h3>
-                        <p>We have all the dogs, the greatest dogs.</p>
-                    </div>
-
-                    <div class="col-lg-4 col-md-12 text-center">
-                        <i class="fas fa-heart fa-5x fontawesome-icon"></i>
-                        <h3 class="feature-title">Guaranteed to work.</h3>
-                        <p>Find the love of your dog's life or your money back.</p>
-                    </div>
+                <!-- <div class="d-flex justify-content-between"> -->
+                <div class="feature-box col-lg-4 text-center">
+                    <i class="fas fa-check-circle fa-5x fontawesome-icon"></i>
+                    <h3 class="feature-title">Easy to use.</h3>
+                    <p>So easy to use, even your dog could do it.</p>
                 </div>
+
+                <div class="feature-box col-lg-4 text-center">
+                    <i class="fas fa-bullseye fa-5x fontawesome-icon"></i>
+                    <h3 class="feature-title">Elite Clientele</h3>
+                    <p>We have all the dogs, the greatest dogs.</p>
+                </div>
+
+                <div class="feature-box col-lg-4 text-center">
+                    <i class="fas fa-heart fa-5x fontawesome-icon"></i>
+                    <h3 class="feature-title">Guaranteed to work.</h3>
+                    <p>Find the love of your dog's life or your money back.</p>
+                </div>
+                <!-- </div> -->
             </div>
         </div>
 
@@ -159,12 +159,13 @@
 
     <section id="pricing">
 
-        <h2>A Plan for Every Dog's Needs</h2>
-        <p>Simple and affordable price plans for your and your dog.</p>
 
-        <div class="container-fluid">
+
+        <div class="container my-2 text-center">
+            <h2>A Plan for Every Dog's Needs</h2>
+            <p>Simple and affordable price plans for your and your dog.</p>
             <div class="row mb-3">
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
                     <div class="card">
                         <div class="card-header">
                             <h3>Chihuahua</h3>
@@ -174,12 +175,14 @@
                             <p>5 Matches Per Day</p>
                             <p>10 Messages Per Day</p>
                             <p>Unlimited App Usage</p>
-                            <button type="button" class="w-100 btn btn-outline-primary">Sign Up</button>
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn-lg btn btn-outline-dark">Sign Up</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
                     <div class="card">
                         <div class="card-header">
                             <h3>Labrador</h3>
@@ -189,12 +192,14 @@
                             <p>Unlimited Matches</p>
                             <p>Unlimited Messages</p>
                             <p>Unlimited App Usage</p>
-                            <button type="button" class="w-100 btn btn-primary">Sign Up</button>
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn-lg btn btn-dark">Sign Up</button>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="pricing-column col-lg-4 col-md-12 col-sm-12">
                     <div class="card">
                         <div class="card-header">
                             <h3>Mastiff</h3>
@@ -205,7 +210,9 @@
                             <p>Unlimited Matches</p>
                             <p>Unlimited Messages</p>
                             <p>Unlimited App Usage</p>
-                            <button type="button" class="w-100 btn btn-primary">Sign Up</button>
+                            <div class="d-grid gap-2">
+                                <button type="button" class="btn-lg btn-block btn btn-dark">Sign Up</button>
+                            </div>
                         </div>
                     </div>
                 </div>
